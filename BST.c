@@ -105,8 +105,8 @@ int main() {
   printf("Inorder traversal: ");
   inorder(root);
 
-  printf("\nAfter deleting 10\n");
-  root = deleteNode(root, 10);
+  printf("\nAfter deleting 14\n");
+  root = deleteNode(root, 14);
   printf("Inorder traversal: ");
   inorder(root);
 }
